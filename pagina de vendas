@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Emagrecimento rápido, saudável e sem academia. Transforme seu corpo com saúde, energia e resultados reais!">
+  <title>Emagreça Agora | Transforme seu Corpo</title>
+  <style>
+    /* Reset geral */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      color: #333;
+    }
+
+    /* HEADER */
+    header {
+      background: linear-gradient(90deg, #FF6F61, #FF8C00);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    header h1 {
+      font-size: 3.5em;
+      margin: 0;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    header p {
+      font-size: 1.3em;
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 15px 40px;
+      background-color: white;
+      color: #FF6F61;
+      font-weight: bold;
+      font-size: 1.2em;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #FFEBE7;
+    }
+
+    /* SEÇÃO BENEFÍCIOS */
+    section {
+      padding: 60px 20px;
+      text-align: center;
+      background: white;
+    }
+
+    section h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #FF6F61;
+    }
+
+    section p {
+      max-width: 800px;
+      margin: auto;
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+
+    /* TESTEMUNHOS */
+    .testimonials {
+      background: #FFEBE7;
+      padding: 40px 20px;
+    }
+
+    .testimonial {
+      max-width: 600px;
+      margin: 30px auto;
+      font-style: italic;
+      font-size: 1.2em;
+      color: #444;
+    }
+
+    /* GIFS ANIMADOS E IMAGENS */
+    .images {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 40px;
+    }
+
+    .images img {
+      width: 45%;
+      border-radius: 10px;
+    }
+
+    /* CTA FINAL */
+    #cta {
+      background: #FF6F61;
+      color: white;
+      padding: 60px 20px;
+    }
+
+    #cta h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    /* BOTÃO DE PAGAMENTO */
+    .cta-button-payment {
+      background-color: white;
+      color: #FF6F61;
+      padding: 20px 40px;
+      font-weight: bold;
+      font-size: 1.3em;
+      border-radius: 50px;
+      text-decoration: none;
+      margin-top: 30px;
+      transition: 0.3s;
+    }
+
+    .cta-button-payment:hover {
+      background-color: #FFEBE7;
+    }
+
+    /* RODAPÉ */
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 0.9em;
+      background: #333;
+      color: white;
+    }
+
+    footer a {
+      color: #FF6F61;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <h1>Transforme Seu Corpo Agora!</h1>
+  <p>Emagrecimento rápido, saudável e sem academia. Resultados reais em poucas semanas!</p>
+  <a href="#cta" class="cta-button">Quero Começar Agora</a>
+</header>
+
+<!-- BENEFÍCIOS -->
+<section>
+  <h2>O Que Você Vai Conquistar?</h2>
+  <p>Emagreça com saúde, sem complicação, e sem precisar de academia. Nosso método funciona de verdade!</p>
+  <p>Veja como é possível perder peso de forma natural, sem dietas malucas ou efeitos temporários.</p>
+</section>
+
+<!-- TESTEMUNHOS -->
+<section class="testimonials">
+  <h2>Resultados Reais</h2>
+  <div class="testimonial">
+    "Em apenas 8 semanas, consegui perder 10 kg e me sentir mais disposto do que nunca. Esse método mudou minha vida!"
+    <br>— Ana Souza, 32 anos
+  </div>
+  <div class="testimonial">
+    "Nunca imaginei que seria possível emagrecer sem academia. Já estou no meu segundo mês e estou cada vez mais confiante!"
+    <br>— Carlos Mendes, 28 anos
+  </div>
+</section>
+
+<!-- IMAGENS E GIFS -->
+<section class="images">
+  <img src="https://via.placeholder.com/400x300?text=Antes+da+Transformação" alt="Antes da transformação">
+  <img src="https://via.placeholder.com/400x300?text=Depois+da+Transformação" alt="Depois da transformação">
+</section>
+
+<!-- CTA FINAL -->
+<section id="cta">
+  <h2>Pronto para Começar sua Transformação?</h2>
+  <p>Não perca tempo! Com o nosso método comprovado, você vai alcançar resultados visíveis de forma rápida e saudável.</p>
+  <a href="https://seulinkdepagamento.com" class="cta-button-payment">Comprar Agora e Emagrecer</a>
+</section>
+
+<!-- RODAPÉ -->
+<footer>
+  <p>© 2025 Transforme Seu Corpo - Todos os direitos reservados.</p>
+  <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a></p>
+</footer>
+
+</body>
+</html>
